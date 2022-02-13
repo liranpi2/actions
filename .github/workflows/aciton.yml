@@ -12,6 +12,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: |
-        git config user.name liranpi2
-        git remote add mirror https://github.com/benpiper/architecting-reliability-aws architecting-reliability-aws2 
-        git push mirror master 
+          git config user.name liranpi2
+          git remote add mirror https://github.com/benpiper/architecting-reliability-aws architecting-reliability-aws2 
+          git push mirror master 
