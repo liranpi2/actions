@@ -19,5 +19,5 @@ jobs:
           git config user.name liranpi2
           git remote add mirror https://github.com/benpiper/architecting-reliability-aws.git 
           git fetch --all 
-          git merge master
-          git push --set-upstream mirror master
+          git merge main
+          git push --set-upstream mirror main
