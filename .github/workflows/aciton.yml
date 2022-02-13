@@ -1,4 +1,4 @@
-name: combine multipile branches
+name: combine multipile branches to single 
 
 on:
   push:
