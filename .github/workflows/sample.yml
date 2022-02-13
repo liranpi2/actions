@@ -14,8 +14,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          persist-credentials: false
+          repository: benpiper/architecting-reliability-aws
+          path: architecting-reliability-aws
       - uses: actions/checkout@v2
       - run: |
           git config user.name liranpi2
