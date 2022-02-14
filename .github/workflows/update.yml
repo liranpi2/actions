@@ -14,7 +14,6 @@ jobs:
       - name: "git submodule update" 
         run: |
           git config user.name liranpi2
-          cd architecting-reliability-aws
-          git pull --recurse-submodules
+          cd architecting-reliability-aws/
           git submodule update --remote --recursive
           git commit -am "Auto updated submodule references" && git push || echo "No changes to commit"
