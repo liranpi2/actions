@@ -1,4 +1,4 @@
-name: GitHub Actions - update submodule
+name: GitHub Actions - update submodule retest
 on: [push]
   
 jobs:
