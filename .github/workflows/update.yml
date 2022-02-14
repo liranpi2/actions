@@ -11,8 +11,8 @@ jobs:
           repository: benpiper/architecting-reliability-aws
           path: architecting-reliability-aws
       
-      - name: "git submodule update" 
-        run: |
+      - uses: actions/checkout@v2
+      - run: |
           git config user.name liranpi2
           cd architecting-reliability-aws/
           git submodule update --remote --recursive
