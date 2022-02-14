@@ -9,8 +9,6 @@ jobs:
         with:
           repository: benpiper/architecting-reliability-aws
           path: architecting-reliability-aws
-      - uses: actions/checkout@v2
-      
       - run: |
           git config user.name liranpi2
           git pull --recurse-submodules
